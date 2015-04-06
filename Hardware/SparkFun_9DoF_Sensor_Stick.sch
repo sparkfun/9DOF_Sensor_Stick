@@ -8076,6 +8076,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-2.5019" y1="1.49351875" x2="2.5019" y2="1.51891875" layer="200"/>
 <rectangle x1="-2.5019" y1="1.51891875" x2="2.5019" y2="1.54431875" layer="200"/>
 <rectangle x1="-2.5019" y1="1.54431875" x2="2.4765" y2="1.56971875" layer="200"/>
+<polygon width="0.127" layer="41">
+<vertex x="-0.8382" y="1.7018"/>
+<vertex x="-0.8382" y="0.5588"/>
+<vertex x="-0.762" y="0.5588"/>
+<vertex x="-0.762" y="1.7018"/>
+</polygon>
 </package>
 <package name="LGA14">
 <wire x1="2.5" y1="1.5" x2="-2.5" y2="1.5" width="0.127" layer="51"/>
@@ -9098,12 +9104,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="VS" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-09097" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="HMC5883L">
+<deviceset name="HMC5883L" prefix="U">
 <description>3 Axis Digital Compass IC</description>
 <gates>
 <gate name="G$1" symbol="HMC5883L" x="0" y="0"/>
@@ -9129,7 +9137,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="VDDIO" pad="13"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-10284" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
