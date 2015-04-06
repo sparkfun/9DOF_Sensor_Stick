@@ -9217,21 +9217,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="EIA3216">
-<wire x1="-1" y1="-1.2" x2="-2.5" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="1.2" x2="-1" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="1" y1="-1.2" x2="2.1" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="-1.2" x2="2.5" y2="-0.8" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="-0.8" x2="2.5" y2="0.8" width="0.2032" layer="21"/>
-<wire x1="2.5" y1="0.8" x2="2.1" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="2.1" y1="1.2" x2="1" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="0.381" y1="1.016" x2="0.381" y2="-1.016" width="0.127" layer="21"/>
-<smd name="C" x="-1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
-<smd name="A" x="1.4" y="0" dx="1.6" dy="1.4" layer="1" rot="R90"/>
-<text x="-2.54" y="1.381" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0.408" y="1.332" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -9243,18 +9228,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="CAP_POL">
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
-<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
-<text x="1.016" y="0.635" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.016" y="-4.191" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
-<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
-<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9360,21 +9333,20 @@ Standard decoupling cap</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="10UF-16V-10%(TANT)" prefix="C" uservalue="yes">
-<description>CAP-00811&lt;BR&gt;
-1206/EIA-3216 Tantalum capacitor</description>
+<deviceset name="10UF-6.3V-20%(0603)" prefix="C" uservalue="yes">
+<description>CAP-11015</description>
 <gates>
-<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="EIA3216">
+<device name="" package="0603-CAP">
 <connects>
-<connect gate="G$1" pin="+" pad="A"/>
-<connect gate="G$1" pin="-" pad="C"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="CAP-00811"/>
+<attribute name="PROD_ID" value="CAP-11015" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
 </technology>
 </technologies>
@@ -10589,12 +10561,12 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="U$4" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="U3" library="SparkFun-PowerIC" deviceset="V_REG_MIC5205" device="3.3V" value="3.3V/150mA"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NC_BY_PASTE" device=""/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="10UF-16V-10%(TANT)" device="" value="10uF"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NC_BY_TRACE" device=""/>
 <part name="P+12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(0603)" device="" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -10681,7 +10653,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="SJ1" gate="G$1" x="50.8" y="78.74" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.26" y="74.041" size="1.778" layer="95"/>
 </instance>
-<instance part="C13" gate="G$1" x="190.5" y="76.2"/>
 <instance part="SJ2" gate="G$1" x="60.96" y="137.16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="63.5" y="134.62" size="1.778" layer="95" rot="MR90"/>
 </instance>
@@ -10693,6 +10664,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="NAME" x="139.7" y="167.64" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="P+12" gate="G$1" x="147.32" y="170.18"/>
+<instance part="C12" gate="G$1" x="190.5" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -10751,7 +10723,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="P+11" gate="G$1" pin="3.3V"/>
 <pinref part="U3" gate="U1" pin="OUT"/>
-<pinref part="C13" gate="G$1" pin="+"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="86.36" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
@@ -10855,7 +10827,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <segment>
 <wire x1="190.5" y1="60.96" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="C13" gate="G$1" pin="-"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="60.96" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
