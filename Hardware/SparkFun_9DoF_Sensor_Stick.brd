@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.02" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -229,6 +229,8 @@
 <text x="7.874" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">ACL</text>
 <text x="18.288" y="6.35" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">GYRO</text>
 <text x="7.874" y="11.176" size="1.778" layer="47" font="vector" ratio="15">Units in inches</text>
+<text x="7.62" y="13.97" size="1.778" layer="51" font="vector" ratio="15">PCB Thickness: 0.036 inches</text>
+<text x="7.239" y="6.477" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">PWR</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1136,12 +1138,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-2.5019" y1="1.49351875" x2="2.5019" y2="1.51891875" layer="200"/>
 <rectangle x1="-2.5019" y1="1.51891875" x2="2.5019" y2="1.54431875" layer="200"/>
 <rectangle x1="-2.5019" y1="1.54431875" x2="2.4765" y2="1.56971875" layer="200"/>
-<polygon width="0.127" layer="41">
-<vertex x="-0.8382" y="1.7018"/>
-<vertex x="-0.8382" y="0.5588"/>
-<vertex x="-0.762" y="0.5588"/>
-<vertex x="-0.762" y="1.7018"/>
-</polygon>
+<circle x="2.905" y="0.635" radius="0.0508" width="0.2032" layer="21"/>
+<rectangle x1="-0.8382" y1="0.4826" x2="-0.762" y2="1.6764" layer="41"/>
 </package>
 <package name="16LPCC">
 <wire x1="-1.7" y1="-1.7" x2="-1.7" y2="-1.1" width="0.2032" layer="21"/>
@@ -1960,6 +1958,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-1.5748" y1="2.0828" x2="-0.64008125" y2="2.10311875" layer="200"/>
 <rectangle x1="-0.5994375" y1="2.0828" x2="1.5748" y2="2.10311875" layer="200"/>
 <rectangle x1="1.6357625" y1="2.0828" x2="1.79831875" y2="2.10311875" layer="200"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
