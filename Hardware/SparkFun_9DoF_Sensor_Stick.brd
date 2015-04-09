@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -216,11 +216,9 @@
 <text x="26.67" y="-12.7" size="1.778" layer="51" font="vector" ratio="15">C. Taylor and N. Seidle</text>
 <text x="32.766" y="7.112" size="1.016" layer="16" font="vector" ratio="20" rot="MR90">v16</text>
 <text x="25.4" y="-15.24" size="1.778" layer="51" font="vector" ratio="15">Toni Klopfenstein</text>
-<dimension x1="0" y1="0" x2="34.29" y2="0" x3="17.145" y3="-5.3975" textsize="1.778" textratio="15" layer="47" unit="inch"/>
-<dimension x1="0" y1="0" x2="0" y2="10.16" x3="-3.175" y3="5.08" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="34.29" y2="0" x3="17.145" y3="-3.8735" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="10.16" x3="-1.905" y3="5.08" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="31.75" y1="5.08" x2="31.75" y2="0" x3="36.98875" y3="2.54" textsize="1.778" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<wire x1="34.544" y1="1.27" x2="36.068" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="34.544" y1="8.89" x2="35.814" y2="8.89" width="0.2032" layer="21"/>
 <rectangle x1="25.908" y1="4.318" x2="27.686" y2="5.842" layer="42"/>
 <text x="28.448" y="8.763" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">I2C</text>
 <text x="20.955" y="9.525" size="0.8128" layer="22" font="vector" ratio="15" rot="MR180">P/U</text>
@@ -230,6 +228,7 @@
 <text x="7.874" y="2.54" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">ADD.</text>
 <text x="7.874" y="5.842" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">ACL</text>
 <text x="18.288" y="6.35" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">GYRO</text>
+<text x="7.874" y="11.176" size="1.778" layer="47" font="vector" ratio="15">Units in inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
