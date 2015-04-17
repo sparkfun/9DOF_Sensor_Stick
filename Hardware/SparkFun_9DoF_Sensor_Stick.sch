@@ -11058,7 +11058,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="170.942" y="11.43" size="2.54" layer="94">C. Taylor and N. Seidle</text>
 <text x="175.768" y="6.858" size="2.54" layer="94">Toni Klopfenstein</text>
 <text x="236.728" y="6.858" size="2.54" layer="94">v16</text>
-<wire x1="-2.54" y1="96.52" x2="76.2" y2="96.52" width="0.2032" layer="97" style="longdash"/>
+<wire x1="0" y1="96.52" x2="76.2" y2="96.52" width="0.2032" layer="97" style="longdash"/>
 <wire x1="101.6" y1="96.52" x2="157.48" y2="96.52" width="0.2032" layer="97" style="longdash"/>
 <wire x1="157.48" y1="96.52" x2="248.92" y2="96.52" width="0.2032" layer="97" style="longdash"/>
 <wire x1="154.94" y1="185.42" x2="157.48" y2="185.42" width="0.2032" layer="97" style="longdash"/>
