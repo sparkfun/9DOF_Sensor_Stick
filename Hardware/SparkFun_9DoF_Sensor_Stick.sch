@@ -11008,7 +11008,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -11027,7 +11027,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R3" library="SparkFun-Resistors" deviceset="330OHM1/10W1%(0603)" device="" value="330"/>
 <part name="P+11" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
+<part name="JP3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
 <part name="P+8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="JP2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
 <part name="U4" library="SparkFun-Sensors" deviceset="HMC5883L" device="SMD"/>
@@ -11129,7 +11129,7 @@ Default Addr: 0x1E</text>
 <instance part="GND8" gate="1" x="170.18" y="104.14"/>
 <instance part="P+6" gate="G$1" x="170.18" y="129.54"/>
 <instance part="GND10" gate="1" x="218.44" y="132.08"/>
-<instance part="JP3" gate="G$1" x="40.64" y="15.24" rot="MR180"/>
+<instance part="JP1" gate="G$1" x="40.64" y="15.24" rot="MR180"/>
 <instance part="GND11" gate="1" x="147.32" y="43.18"/>
 <instance part="C10" gate="G$1" x="198.12" y="58.42"/>
 <instance part="GND12" gate="1" x="198.12" y="43.18"/>
@@ -11148,7 +11148,7 @@ Default Addr: 0x1E</text>
 <instance part="R3" gate="G$1" x="210.82" y="53.34" rot="R90"/>
 <instance part="P+11" gate="G$1" x="210.82" y="76.2"/>
 <instance part="GND15" gate="1" x="210.82" y="43.18"/>
-<instance part="JP1" gate="G$1" x="246.38" y="33.02"/>
+<instance part="JP3" gate="G$1" x="246.38" y="33.02"/>
 <instance part="P+8" gate="G$1" x="165.1" y="160.02"/>
 <instance part="JP2" gate="G$1" x="243.84" y="33.02"/>
 <instance part="U4" gate="G$1" x="114.3" y="137.16"/>
@@ -11334,7 +11334,7 @@ Default Addr: 0x1E</text>
 <segment>
 <wire x1="48.26" y1="17.78" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="17.78" x2="48.26" y2="17.78" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
@@ -11403,7 +11403,7 @@ Default Addr: 0x1E</text>
 <segment>
 <wire x1="50.8" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <label x="55.88" y="12.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="45.72" y1="12.7" x2="50.8" y2="12.7" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
@@ -11432,7 +11432,7 @@ Default Addr: 0x1E</text>
 <segment>
 <wire x1="50.8" y1="10.16" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
 <label x="55.88" y="10.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="JP3" gate="G$1" pin="4"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
 <wire x1="45.72" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
@@ -11472,7 +11472,7 @@ Default Addr: 0x1E</text>
 <segment>
 <wire x1="50.8" y1="20.32" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="G$1" pin="VCC"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="15.24" x2="50.8" y2="15.24" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
