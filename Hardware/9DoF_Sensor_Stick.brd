@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -1110,7 +1110,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="9.525" y1="6.985" x2="8.19195" y2="6.985" width="0.508" layer="16"/>
 <wire x1="8.19195" y1="6.985" x2="7.655571875" y2="6.448621875" width="0.508" layer="16"/>
 <wire x1="7.655571875" y1="6.448621875" x2="7.655571875" y2="5.08" width="0.508" layer="16"/>
-<wire x1="10.623" y1="4.005" x2="11.035965625" y2="4.005" width="0.2286" layer="1"/>
+<wire x1="10.623" y1="4.005" x2="11.035965625" y2="4.005" width="0.2032" layer="1"/>
 <wire x1="11.035965625" y1="4.005" x2="11.176" y2="4.145034375" width="0.2032" layer="1"/>
 <wire x1="11.176" y1="4.145034375" x2="11.176" y2="4.435" width="0.2032" layer="1"/>
 <via x="12.065" y="7.239" extent="1-16" drill="0.381"/>
@@ -1152,9 +1152,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="5.969" y1="6.985" x2="7.366" y2="8.382" width="0.254" layer="16"/>
 <wire x1="5.969" y1="4.191" x2="6.35" y2="3.81" width="0.254" layer="16"/>
 <wire x1="6.35" y1="3.81" x2="7.112" y2="3.81" width="0.254" layer="16"/>
-<wire x1="7.112" y1="3.81" x2="7.366" y2="3.81" width="0.254" layer="1"/>
-<wire x1="7.366" y1="3.81" x2="7.561" y2="4.005" width="0.254" layer="1"/>
-<wire x1="7.561" y1="4.005" x2="8.173" y2="4.005" width="0.254" layer="1"/>
+<wire x1="7.112" y1="3.81" x2="7.366" y2="3.81" width="0.2032" layer="1"/>
+<wire x1="7.366" y1="3.81" x2="7.561" y2="4.005" width="0.2032" layer="1"/>
+<wire x1="7.561" y1="4.005" x2="8.173" y2="4.005" width="0.2032" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C2" pad="2"/>
