@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -1287,19 +1287,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="7,39,243051e19279dcd0"/>
 <approved hash="5,1,4e455d7a05c8f2c7"/>
 <approved hash="5,1,0fc124e5d8781765"/>
+<approved hash="19,16,86914b1bf814d9fd"/>
+<approved hash="19,16,811158336b5e5e1f"/>
+<approved hash="5,1,690cd250f1bae597"/>
+<approved hash="5,1,69dfd4a977a165a6"/>
 <approved hash="5,1,69edd8e47bf6658e"/>
 <approved hash="5,1,69d8dafaf9dce58f"/>
-<approved hash="5,1,69dfd4a977a165a6"/>
-<approved hash="5,1,690cd250f1bae597"/>
 <approved hash="5,1,066a12a75f323754"/>
 <approved hash="5,1,056a11a12bb443d4"/>
 <approved hash="5,1,046a10bcfa299254"/>
-<approved hash="5,1,7a0cd244fd2eec1f"/>
-<approved hash="5,1,7ad8daeef548ec07"/>
-<approved hash="5,1,7aedd8f077626c06"/>
 <approved hash="5,1,7ae0d69bf91bec19"/>
-<approved hash="5,1,7b0fdcc772af6c1e"/>
+<approved hash="5,1,7aedd8f077626c06"/>
 <approved hash="5,1,7adcdf3df0b5ec2d"/>
+<approved hash="5,1,7b0fdcc772af6c1e"/>
+<approved hash="5,1,7ad8daeef548ec07"/>
+<approved hash="5,1,7a0cd244fd2eec1f"/>
 <approved hash="19,16,0e4124061bcbc393"/>
 <approved hash="19,16,255f433bf76ea869"/>
 <approved hash="19,16,db5ec4db0eeae370"/>
@@ -1308,8 +1310,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,6d1cbd86f1f73cb2"/>
 <approved hash="19,16,af5db0c046f1ab73"/>
 <approved hash="19,16,9930784d789484e9"/>
-<approved hash="19,16,86914b1bf814d9fd"/>
-<approved hash="19,16,811158336b5e5e1f"/>
+<approved hash="19,16,0665f0fb3ad3e541"/>
+<approved hash="19,16,e8ffb1fdbabacab7"/>
+<approved hash="19,16,410bb496eadbf325"/>
+<approved hash="19,16,c01a197e065d335a"/>
 </errors>
 </board>
 </drawing>
