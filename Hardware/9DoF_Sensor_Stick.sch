@@ -8803,7 +8803,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheet>
 <plain>
 <text x="167.132" y="11.43" size="2.54" layer="94">Alex Wende</text>
-<text x="238.76" y="7.112" size="2.54" layer="94">v20</text>
+<text x="238.76" y="7.112" size="2.54" layer="94">v21</text>
 <text x="2.54" y="180.34" size="2.54" layer="94">LSM9DS1</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="106.68" width="0.254" layer="97" style="longdash"/>
 <wire x1="147.32" y1="106.68" x2="147.32" y2="185.42" width="0.254" layer="97" style="longdash"/>

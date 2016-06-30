@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -203,7 +203,7 @@ GYR</text>
 <text x="2.54" y="6.985" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="center-left">1.9-</text>
 <text x="2.54" y="5.715" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="center-left">3.6V</text>
 <text x="21.59" y="-17.78" size="1.778" layer="51" font="vector" ratio="15">Alex Wende</text>
-<text x="11.557" y="0.381" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">v20</text>
+<text x="11.557" y="0.381" size="1.016" layer="16" font="vector" ratio="20" rot="MR0">v21</text>
 <dimension x1="0" y1="10.16" x2="22.86" y2="10.16" x3="11.43" y3="15.239996875" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="22.86" y1="0" x2="22.86" y2="5.08" x3="27.94" y3="2.54" textsize="1.27" textratio="15" layer="47" unit="inch"/>
 <dimension x1="20.32" y1="0" x2="0" y2="0" x3="10.16" y3="-5.08" textsize="1.27" textratio="15" layer="47" unit="inch" precision="3"/>
