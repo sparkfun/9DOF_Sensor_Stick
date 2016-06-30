@@ -171,9 +171,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
-<package name="REVISION">
-<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
-</package>
 <package name="FIDUCIAL-1X2">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
@@ -3569,9 +3566,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="27.94" size="1.9304" layer="94">Attribution Share-Alike 4.0 License</text>
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
-</symbol>
-<symbol name="REVISION">
-<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
 </symbol>
 <symbol name="VDD">
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -7302,18 +7296,6 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="REVISION">
-<gates>
-<gate name="G$1" symbol="REVISION" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="REVISION">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="VDD" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
@@ -8785,7 +8767,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="U$1" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="U1" library="SparkFun-Sensors" deviceset="LSM9DS1" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(0603)" device="" value="10uF"/>
@@ -8805,8 +8786,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="J2" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="H1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
@@ -8817,12 +8796,13 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <part name="JP3" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-2OF3_NC_BY_TRACE" device="_SMALL" value=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VDD" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="168.91" y="11.43" size="2.54" layer="94">C. Taylor and N. Seidle</text>
-<text x="170.18" y="6.858" size="2.54" layer="94">Alex Wende</text>
+<text x="167.132" y="11.43" size="2.54" layer="94">Alex Wende</text>
 <text x="238.76" y="7.112" size="2.54" layer="94">v20</text>
 <text x="2.54" y="180.34" size="2.54" layer="94">LSM9DS1</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="106.68" width="0.254" layer="97" style="longdash"/>
@@ -8863,17 +8843,16 @@ resistors, cut traces on both sides.</text>
 accelerometer and gyroscope.</text>
 <text x="7.62" y="17.78" size="1.778" layer="97">JP3 sets the I2C address for the
 magnetometer.</text>
-<text x="200.66" y="143.764" size="2.54" layer="97" align="center">0x6A*</text>
-<text x="199.644" y="139.7" size="2.54" layer="97" align="center">0x6B</text>
-<text x="220.98" y="143.764" size="2.54" layer="97" align="center">0x1C*</text>
-<text x="219.964" y="139.7" size="2.54" layer="97" align="center">0x1E</text>
+<text x="199.644" y="143.764" size="2.54" layer="97" align="center">0x6A</text>
+<text x="200.66" y="139.7" size="2.54" layer="97" align="center">0x6B*</text>
+<text x="220.726" y="143.764" size="2.54" layer="97" align="center">0x1C</text>
+<text x="221.742" y="139.7" size="2.54" layer="97" align="center">0x1E*</text>
 <text x="184.15" y="135.128" size="2.54" layer="97" align="center">* Default address</text>
 <text x="40.64" y="172.72" size="2.54" layer="97">VDD: 1.9-3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="148.59" y="6.858"/>
 <instance part="U1" gate="G$1" x="96.52" y="147.32"/>
 <instance part="SUPPLY1" gate="VDD" x="73.66" y="167.64"/>
 <instance part="C1" gate="G$1" x="35.56" y="154.94" rot="MR0"/>
@@ -8893,18 +8872,18 @@ magnetometer.</text>
 <instance part="J2" gate="G$1" x="205.74" y="71.12" rot="MR0"/>
 <instance part="SUPPLY3" gate="VDD" x="198.12" y="78.74"/>
 <instance part="GND6" gate="1" x="198.12" y="58.42"/>
-<instance part="FD1" gate="G$1" x="241.3" y="27.94"/>
-<instance part="FD2" gate="G$1" x="236.22" y="27.94"/>
 <instance part="H1" gate="G$1" x="246.38" y="27.94"/>
 <instance part="LOGO1" gate="G$1" x="134.62" y="2.54"/>
 <instance part="LOGO3" gate="G$1" x="119.38" y="10.16"/>
 <instance part="SUPPLY4" gate="VDD" x="114.3" y="167.64"/>
-<instance part="JP2" gate="G$1" x="86.36" y="50.8"/>
+<instance part="JP2" gate="G$1" x="86.36" y="50.8" rot="MR180"/>
 <instance part="SUPPLY5" gate="VDD" x="86.36" y="58.42"/>
 <instance part="GND7" gate="1" x="86.36" y="40.64"/>
-<instance part="JP3" gate="G$1" x="86.36" y="20.32"/>
+<instance part="JP3" gate="G$1" x="86.36" y="20.32" rot="MR180"/>
 <instance part="SUPPLY6" gate="VDD" x="86.36" y="27.94"/>
 <instance part="GND8" gate="1" x="86.36" y="10.16"/>
+<instance part="FD3" gate="G$1" x="241.3" y="27.94"/>
+<instance part="FD4" gate="G$1" x="236.22" y="27.94"/>
 </instances>
 <busses>
 </busses>
@@ -9007,14 +8986,14 @@ magnetometer.</text>
 <pinref part="SUPPLY4" gate="VDD" pin="VDD"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="55.88" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="VDD" pin="VDD"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="86.36" y1="58.42" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="25.4" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="3"/>
 <pinref part="SUPPLY6" gate="VDD" pin="VDD"/>
+<wire x1="86.36" y1="25.4" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -9074,14 +9053,14 @@ magnetometer.</text>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="3"/>
-<wire x1="86.36" y1="45.72" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="86.36" y1="45.72" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="86.36" y1="15.24" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="86.36" y1="15.24" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDO_A/G" class="0">
