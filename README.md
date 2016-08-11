@@ -1,9 +1,9 @@
 SparkFun 9 Degrees of Freedom - Sensor Stick
 =============================================
 
-![SparkFun 9 Degrees of Freedom - Sensor Stick](https://cdn.sparkfun.com//assets/parts/5/6/0/5/10724-01b.jpg)
+![SparkFun 9 Degrees of Freedom - Sensor Stick](https://cdn.sparkfun.com/assets/parts/1/1/6/3/3/13944-01.jpg)
 
-[*SparkFun 9 Degrees of Freedom - Sensor Stick (SEN-10724)*](https://www.sparkfun.com/products/10724)
+[*SparkFun 9 Degrees of Freedom - Sensor Stick (SEN-13944)*](https://www.sparkfun.com/products/13944)
 
 
 The SparkFun 9DOF Sensor Stick is a very small sensor board with 9 degrees of freedom. 
