@@ -6,8 +6,7 @@ SparkFun 9 Degrees of Freedom - Sensor Stick
 [*SparkFun 9 Degrees of Freedom - Sensor Stick (SEN-13944)*](https://www.sparkfun.com/products/13944)
 
 
-The SparkFun 9DOF Sensor Stick is a very small sensor board with 9 degrees of freedom. 
-It includes the ADXL345 accelerometer, the HMC5883L magnetometer, and the ITG-3200 MEMS gyro.
+The SparkFun 9DOF Sensor Stick is a very small sensor board with 9 degrees of freedom.
 It includes the LSM9DS1 with a simple I2C interface and a mounting hole for attaching it to your project.
 Also, the board is a mere 0.9" in length, 0.4" in width, and 0.036" thick (0.093" overall), allowing it to be easily mounted in just about any application.
  
