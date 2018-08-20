@@ -14,7 +14,13 @@ Also, the board is a mere 0.9" in length, 0.4" in width, and 0.036" thick (0.093
 -------------------
 * **/Hardware** - All Eagle design files (.brd, .sch)
 
+Documentation
+--------------
 
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
+* **[Library](https://github.com/sparkfun/SparkFun_LSM9DS1_Arduino_Library)** - Arduino library for the 9DoF Sensor Stick.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/9dof-sensor-stick-hookup-guide)** - Basic hookup guide for the 9DoF Sensor Stick.
+ 
 License Information
 -------------------
 The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
